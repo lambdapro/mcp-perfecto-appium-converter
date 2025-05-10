@@ -181,10 +181,7 @@ MIT
 ## Acknowledgments
 
 - Inspired by the transition needs of mobile automation testers moving from Perfecto to Appium
-- Thanks to Anthropic for Claude Desktop and the MCP integration capabilities
 - Special thanks to [saikrishna321](https://github.com/saikrishna321) and [SrinivasanTarget](https://github.com/SrinivasanTarget) for their inspiring work and contributions in the mobile automation space to Appium
-- Thanks to Anthropic for Claude Desktop and the MCP integration capabilities
-
 ---
 
 *Note: This project is not officially affiliated with Perfecto Mobile or Appium.*
