@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+      "mcp-perfecto-appium-converter": {
+        "command": "D:\\mcp-perfecto-appium-converter\\src\\cli.js",
+        "args": []
+      }
+    }
+  }

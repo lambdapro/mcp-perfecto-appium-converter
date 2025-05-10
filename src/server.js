@@ -18,5 +18,21 @@ registerResources(server);
 // Register all tools
 registerTools(server);
 
+// Start the server
+server.start().then(() => {
+  console.log(`Server started and listening on port ${server.config.port}`);
+}).catch(error => {
+  console.error('Failed to start server:', error);
+});
+
+// Handle process signals to gracefully shut down
+process.on('SIGINT', () => {
+  console.log('Shutting down server...');
+  server.stop().then(() => {
+    console.log('Server stopped');
+    process.exit(0);
+  });
+});
+
 // Export the server instance
 export default server;

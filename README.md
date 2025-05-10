@@ -75,8 +75,12 @@ You can also import a pre-configured settings file:
    {
      "mcpServers": {
        "mcp-perfecto-appium-converter": {
-         "command": "mcp-perfecto-appium-converter",
-         "args": []
+         "command": "npx",
+         "disabled": false,
+         "args": ["mcp-perfecto-appium-converter"],
+          "autoApprove": [],
+          "timeout": 300,
+          "transportType": "stdio"
        }
      }
    }

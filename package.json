@@ -5,20 +5,23 @@
     "type": "module",
     "main": "src/index.js",
     "bin": {
-      "mcp-perfecto-appium-converter": "src/cli.js"
+        "mcp-perfecto-appium-converter": "src/cli.js"
     },
     "scripts": {
-      "start": "node src/index.js",
-      "dev": "nodemon src/index.js",
-      "test": "node test.js"
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "node test.js"
     },
     "keywords": [
-      "mcp",
-      "appium",
-      "perfecto",
-      "conversion",
-      "automation"
+        "mcp",
+        "appium",
+        "perfecto",
+        "conversion",
+        "automation"
     ],
     "author": "",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "fastmcp": "^1.27.4"
+    }
+}
