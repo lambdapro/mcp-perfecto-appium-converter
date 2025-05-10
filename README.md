@@ -109,7 +109,7 @@ driver.executeScript("mobile:application:open", "{'name':'Settings'}");
 
 #### File Conversion
 ```
-I've uploaded a Perfecto test file called PerfectoTest.java. Please convert it to Appium code for Android.
+I've uploaded a Perfecto test file. Please convert it to Appium code for Android.
 ```
 
 #### Learning About Differences
