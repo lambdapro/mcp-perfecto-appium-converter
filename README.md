@@ -137,6 +137,12 @@ You can also use the converter without Claude Desktop:
      -H "Content-Type: application/json" \
      -d '{"code": "driver.findElement(PerfectoMobileBy.id(\"login-button\")).click();", "platform": "android"}'
    ```
+      ```bash
+   # Example using curl
+   curl -X POST http://localhost:8000/tools/convertCode \
+     -H "Content-Type: application/json" \
+     -d '{"code": "driver.executeScript(\"mobile:touch:tap\", {location: \"50%,50%\"});", "platform": "android"}'
+   ```
 
 ## Supported Conversions
 
